@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversor de moedas KATIE</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header class="cabecalho">
+        <table>
+            <tr>
+                <td><h1>Conversor de Moedas do </h1></td>
+                <td><img class="gif-katie" src="https://ic.ufal.br/extensao/katie/resources/logoanim.gif"/></td>
+            </tr>
+        </table>
+        <!-- <img class="gif-katie" src="https://ic.ufal.br/extensao/katie/resources/logoanim.gif"/> -->
+    </header>
+    <main class="container">
+        <section class="card">
+            <header>
+                <!-- <h2 class="titulo">Conversor de Moedas</h2> -->
+                <table class="cabecalho-caixa">
+                    <tr>
+                        <td><img class="gif-tio-patinhas" src="https://www.imagensanimadas.com/data/media/1512/tio-patinhas-imagem-animada-0017.gif"/></td>
+                        <td class="converta"><h2>CONVERTA VALORES ENTRE<br>MOEDAS RAPIDAMENTE!</h2></td>
+                    </tr>
+                </table>
+            </header>
+    
+            <section class="valor">
+                <label>Digite o valor:</label>
+                <input type="number" id="valor_inicial">
+            </section>
+    
+            <section class="conversao">
+                <div  class="converter-de">
+                    <label>DE:</label>
+                    <select name="moedasde" id="moedasde">
+                        <option value="de">Moeda 1</option>
+                        <option value="USD">Dolar</option>
+                        <option value="BRL">Real</option>
+                        <option value="EUR">Euro</option>
+                      </select>
+                </div>
+
+                <div class="converter-para">
+                    <label>PARA:</label>
+                    <select name="moedaspara" id="moedaspara">
+                        <option value="para">Moeda 2</option>
+                        <option value="USD">Dolar</option>
+                        <option value="BRL">Real</option>
+                        <option value="EUR">Euro</option>
+                      </select>
+                </div>
+                
+            </section>
+            <button type="submit" onclick="Converter()">CONVERTER</button>
+
+            <span id="resultado" class="resultado"></span>
+    
+        </section>
+
+    </main>
+
+    <footer>
+        <table class="rodape">
+            <tr>
+                <td>Feito com muito &#128156 pelo grupo </td>
+                <td><img class="logo-katie" src="https://i.imgur.com/uVVM7nl.png"/></td>
+                <td> nos </td>
+                <td><img class="cursos-de-inverno" src="https://i.imgur.com/oi29qb5.png"/></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

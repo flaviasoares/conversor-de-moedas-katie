@@ -1,0 +1,19 @@
+:root {
+  --rosa-katie: #F8049C;
+  --amarelo-katie: #fdd54f;
+  --cinza-katie: #1F1F24;
+  --rosa-claro: #EF5AA7;
+  --branco:  #ffffff;
+  --azul: #5DBCD2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial, sans-serif;
+  color: #1F1F24;
+}
